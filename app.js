@@ -14,7 +14,7 @@ axios.get(apiURI)
     var location = data.name; // 지역
     console.log('지역 : ' + location + ' 현재 온도 : ' + temp + '도, 최고 온도 : ' + tempMax + '도, 최저 온도 : ' + tempMin + '도, 습도 : ' + humidity + '%');
     // POST 요청을 보내는 부분
-    return axios.post('http://example.com/your-endpoint', {
+    return axios.post('여기에 삽입', {
       location: location,
       temperature: temp,
       maxTemperature: tempMax,
