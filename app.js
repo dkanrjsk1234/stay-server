@@ -1,7 +1,7 @@
 const express = require('express');
 const axios = require('axios');
 const app = express();
-const port = 8080;
+const port = process.env.PORT || 8080;
 
 const city = 'Seoul';
 const apiKey = '88696efc50f0ce92ae2a33fec6ab7645';
